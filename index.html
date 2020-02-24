@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
-    <title>easier-homework-assigment</title>
-    <style type="text/css">
-    #main-header{
-        text-align: center;
-        background-color: black;
-        color: cornsilk;
-        padding: 10px;
-    }
-
-    #main-footer{
-        text-align: center;
-        font-size: 18px;
-    }
-    </style>
+       <title>easier-homework-assigment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header id="main-header">
-
-        <h1>Web site layout</h1>
+        <div class="container">      
+            <h1>Web site layout</h1>
+        </div>
     </header>
-
-    <Section>
-        <nav>
-        <article>
-            <h1>This line is h1</h1>
-            <h2>This line is h2</h2>
-            <h3>This line is h3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione magnam placeat dolores est! Numquam esse molestiae deleniti, impedit totam beatae possimus debitis consequuntur nostrum consequatur accusamus omnis cupiditate? Voluptate.</p>
-            <a href="post.html">Read More</a>
-        </article>
-        </nav>
-    </Section>
-
-    <aside>
-        <h3>Categories</h3>
+    <nav id="navbar">
+        <div class="container">      
             <ul>
-                <li><a href="#">category 1</a></li>
-                <li><a href="#">category 2</a></li>
-                <li><a href="#">category 3</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
             </ul>
-           </aside>
+        </div>
+    </nav>
+    
+    
+    <Section id="showcase">
+        <div class="container">
+            <article>
+                <h1>This line is h1</h1>
+                <h2>This line is h2</h2>
+                <h3>This line is h3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione magnam placeat dolores est! Numquam esse molestiae deleniti, impedit totam beatae possimus debitis consequuntur nostrum consequatur accusamus omnis cupiditate? Voluptate.</p>
+                    <a href="post.html">Read More</a>
+            </article>
+        </div>
+    </Section>
+    <div class="container">
+        <Section id="main">
+            <h1>Welcome to aascencio web site</h1>
+            <div class="container">
+                <article>
+                    <h1>This line is h1</h1>
+                    <h2>This line is h2</h2>
+                    <h3>This line is h3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione magnam placeat dolores est! Numquam esse molestiae deleniti, impedit totam beatae possimus debitis consequuntur nostrum consequatur accusamus omnis cupiditate? Voluptate.</p>
+                        <a href="post.html">Read More</a>
+                </article>
+            </div>
+        </Section>
 
+        <aside id="sidebar">
+            <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">category 1</a></li>
+                    <li><a href="#">category 2</a></li>
+                    <li><a href="#">category 3</a></li>
+                </ul>
+        </aside>
+    </div>
 <footer id="main-footer">
-
     Copyright &copy; 2020 "Alaska" Alex
 </footer>
 </body>
